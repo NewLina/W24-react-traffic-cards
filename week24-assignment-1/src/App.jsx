@@ -1,6 +1,6 @@
 import './App.css';
 import data from './data.js';
-import TariffCard from './TariffCard';
+import TariffCard from './TarriffCard/TariffCard';
 
 
 function App() {
