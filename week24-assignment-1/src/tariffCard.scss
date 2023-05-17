@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+$roboto-font:'Roboto', sans-serif;
+$light: 300;
+$regular: 400;
+$medium: 500;
+$bold: 700;
+$grey: rgb(102, 102, 102);
+$white: rgb(248, 248, 248);
+
+.card{
+    width: 18%;
+    font-family: $roboto-font;
+    font-weight: $regular;
+}
+.card__tariff{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 2vw 0 2vw 0;
+    font-size: 1.3vw;
+    color: $white;
+}
+.card__tariff-month{
+    padding-top: 0.8vw;
+}
+.card__tariff-price{
+    font-size: 3.5vw;
+    font-weight: $bold;
+}
+.card__heading{
+    font-size: 1.5vw;
+    padding: 1vw 0 1vw 0;
+    font-weight: $medium;
+    color: $white;
+}
+
+.card__tariff, .card__heading, .card__volume, .card__text {
+border: 1px solid white;
+}
+.card__volume{
+    padding: 1.5vw 0 1.5vw 0;
+    font-size: 1.2vw;
+    background-color: rgb(247, 247, 247);
+    color: $grey;
+}
+.card__text{
+    padding: 0.5vw 1.5vw 1vw 1.5vw;
+    font-size: 1.2vw;
+    line-height: 2.2vw;
+    background-color: rgb(235, 235, 235);
+    color: $grey;
+}
+
+.card__heading-blue{
+    background-color: #02bfc2;
+}
+.card__heading-green{
+    background-color:  #29AB87;
+}
+.card__heading-red{
+    background-color: rgb(221, 106, 85);
+}
+.card__heading-black{
+    background-color: rgb(20, 20, 20);
+}
+
+.card__tariff-blue{
+    background-color: #3fe3e6;
+}
+.card__tariff-green{
+    background-color: #4cd3ad;
+}
+.card__tariff-red{
+    background-color: rgb(255, 125, 102);
+}
+.card__tariff-black{
+    background-color: rgb(41, 41, 41);
+}
+.selected {
+    transform: scale(1.08);
+}
